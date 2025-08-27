@@ -6,9 +6,11 @@ const AboutSection = () => {
             <div className="max-w-4xl mx-auto text-center">
                 <h1 className="text-4xl font-bold text-gray-900 mb-8">Hello, I'm MingHao Yu.</h1>
                 <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                    As an independent developer I've been fortunate to work with modern technologies like React, Node.js,
-                    and various databases. I'm passionate about creating user-friendly applications and writing clean,
-                    maintainable code. I enjoy learning new technologies and solving complex problems through code.
+
+
+                    I recently graduated with a Computer Science degree from UVic and have hands-on experience with React, Node.js, and database technologies through coursework and personal projects. I really enjoy the problem-solving aspect of development and strive to write clean, readable code.
+
+                    When I'm not coding, I love exploring Victoria's hiking trails and experimenting with new technologies in side projects.
                 </p>
                 <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                     Currently focusing on full-stack web development, I'm always excited to take on new challenges

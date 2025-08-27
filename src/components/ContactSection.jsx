@@ -18,13 +18,13 @@ const ContactSection = () => {
 
                 <div className="flex justify-center space-x-6 mb-8">
                     <a
-                        href="mailto:your.email@gmail.com"
+                        href="minghao.yu0304@gmail.com"
                         className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors font-semibold"
                     >
                         Email Me
                     </a>
                     <a
-                        href="https://linkedin.com/in/yourprofile"
+                        href="www.linkedin.com/in/minghao-yu-128b40337/ "
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-blue-500 text-white px-8 py-3 rounded-lg hover:bg-blue-600 transition-colors font-semibold"
