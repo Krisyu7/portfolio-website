@@ -8,6 +8,7 @@ const Footer = () => {
             console.log('Comment submitted:', comment);
             alert('Thank you for your comment!');
             setComment('');
+
         }
     };
 
@@ -43,15 +44,18 @@ const Footer = () => {
                         </a>
                     </div>
                 </div>
-
+                <p className="text-xs max-w-2xl mx-auto -ml-10 ">Message Length:{comment.length}</p>
                 <div className="max-w-2xl mx-auto mb-8">
                     <div className="flex flex-col md:flex-row gap-4">
+
             <textarea
                 value={comment}
                 onChange={(e) => setComment(e.target.value)}
-                placeholder="Please leave your comment or message..."
+                placeholder="Short and sweet is great, but feel free to share your thoughts!"
                 className="flex-1 p-4 rounded-lg bg-gray-800 border border-gray-700 text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 min-h-32"
+
             />
+
                         <button
                             onClick={handleSubmit}
                             className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-colors font-semibold md:self-start"

@@ -1,4 +1,6 @@
 import React from 'react';
+import {Link} from "react-router-dom";
+import shoppingcartSS from '../assets/shoppingcartSS.png';
 
 const ProjectsSection = () => {
     return (
@@ -11,18 +13,23 @@ const ProjectsSection = () => {
                     <div className="group bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
                         <div className="relative h-64 bg-gray-200 overflow-hidden">
                             <div className="w-full h-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
-                                <span className="text-white text-lg">Project Screenshot</span>
+                                <img
+                                    src={shoppingcartSS}
+                                    alt="Electronics Shopping Demo Screenshot"
+                                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                                />
                             </div>
                             <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                                <span className="text-white font-semibold">查看项目</span>
+                                <Link to="/projects/electronics-store" className="text-white font-semibold">View Project</Link>
                             </div>
                         </div>
                         <div className="p-6">
-                            <h3 className="text-xl font-bold text-gray-900 mb-2">项目标题 1</h3>
-                            <p className="text-gray-600 mb-4">A brief description of the project, showing its main functions and technical features</p>
+                            <h3 className="text-xl font-bold text-gray-900 mb-2">Electronics Shopping Demo</h3>
+                            <p className="text-gray-600 mb-4">A modern frontend demo showcasing complete e-commerce flow with product display, cart management, price calculation, and checkout form interface</p>
                             <div className="flex flex-wrap gap-2">
                                 <span className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">React</span>
-                                <span className="px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm">Node.js</span>
+                                <span className="px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm">JavaScript</span>
+                                <span className="px-3 py-1 bg-green-100 text-shadow-black-600 rounded-full text-sm">Tailwind CSS</span>
                             </div>
                         </div>
                     </div>
@@ -34,11 +41,11 @@ const ProjectsSection = () => {
                                 <span className="text-white text-lg">Project Screenshot</span>
                             </div>
                             <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                                <span className="text-white font-semibold">查看项目</span>
+                                <span className="text-white font-semibold">View Project</span>
                             </div>
                         </div>
                         <div className="p-6">
-                            <h3 className="text-xl font-bold text-gray-900 mb-2">项目标题 2</h3>
+                            <h3 className="text-xl font-bold text-gray-900 mb-2">Project 2 Coming Soon...</h3>
                             <p className="text-gray-600 mb-4">A brief description of the project, showing its main functions and technical features</p>
                             <div className="flex flex-wrap gap-2">
                                 <span className="px-3 py-1 bg-purple-100 text-purple-600 rounded-full text-sm">Vue</span>

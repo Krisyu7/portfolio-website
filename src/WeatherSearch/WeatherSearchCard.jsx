@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 // Weather Utils
-const apiKey = "a0607b94df6123a07c02a534869e92d3";
+const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
 
 function getWeatherEmoji(weatherId) {
     switch (true) {

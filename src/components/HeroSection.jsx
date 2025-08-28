@@ -1,4 +1,6 @@
 import React from 'react';
+import LikeCounter from "../utils/LikeCounter.jsx";
+
 
 const HeroSection = () => {
     return (
@@ -19,6 +21,7 @@ const HeroSection = () => {
                 >
                     More about me
                 </a>
+                <LikeCounter/>
             </div>
         </section>
     );

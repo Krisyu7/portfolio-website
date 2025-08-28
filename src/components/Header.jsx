@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <header className="fixed top-0 w-full bg-white shadow-sm z-50">
-            <nav className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <nav className="max-w-6xl mx-auto px-10 py-1 flex justify-between items-center">
                 <div className="text-2xl font-bold font-mono">
                     <Link to="/" className="text-gray-900 hover:text-blue-600 transition-colors">
                         MingHao Yu
