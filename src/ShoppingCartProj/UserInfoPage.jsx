@@ -126,14 +126,14 @@ function ProductCard({ product, onAddToCart }) {
     };
 
     return (
-        <div className="bg-white border rounded-lg p-2 hover:shadow-md transition-shadow">
-            <img 
-                src={product.image} 
+        <div className="bg-white border rounded-lg p-3 hover:shadow-md transition-shadow">
+            <img
+                src={product.image}
                 alt={product.name}
-                className="w-full h-16 object-cover rounded-md mb-1"
+                className="w-full aspect-square object-cover rounded-md mb-2"
             />
-            <h3 className="font-medium text-gray-900 mb-1 text-xs leading-tight">{product.name}</h3>
-            <div className="text-xs font-bold text-blue-600 mb-2">${product.price}</div>
+            <h3 className="font-medium text-gray-900 mb-1 text-sm leading-tight">{product.name}</h3>
+            <div className="text-sm font-bold text-blue-600 mb-3">${product.price}</div>
             
             <div className="flex items-center gap-1">
                 <div className="flex items-center border rounded text-xs">

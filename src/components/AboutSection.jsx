@@ -10,14 +10,14 @@ const AboutSection = () => {
 
                     I recently graduated with a Computer Science degree from UVic and have hands-on experience with React, Node.js, and database technologies through coursework and personal projects. I really enjoy the problem-solving aspect of development and strive to write clean, readable code.
 
-                    When I'm not coding, I love exploring Victoria's hiking trails and experimenting with new technologies in side projects.
+                    When I'm not studying or coding, I love playing soccer, diving into games, exploring hiking trails, and fishing.
                 </p>
                 <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                     Currently focusing on full-stack web development, I'm always excited to take on new challenges
                     and collaborate with teams that value quality and innovation.
                 </p>
                 <a
-                    href="#contact"
+                    href="/about"
                     className="inline-block text-blue-600 hover:text-blue-800 font-semibold transition-colors text-lg"
                 >
                     More about me →

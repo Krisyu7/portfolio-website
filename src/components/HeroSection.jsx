@@ -13,7 +13,7 @@ const HeroSection = () => {
                     Hello! I'm MingHao Yu, a fresh Computer Science graduate from UVic, based in beautiful Victoria, BC. I'm passionate about creating intuitive digital experiences through full-stack development, always eager to tackle new challenges and grow as a developer.
                 </p>
                 <a
-                    href="https://google.com"
+                    href="/about"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block text-gray-900 font-semibold hover:text-blue-600 transition-colors duration-300 border-b-2 border-gray-900 hover:border-blue-600 pb-1 ml-10"
@@ -21,7 +21,6 @@ const HeroSection = () => {
                 >
                     More about me
                 </a>
-                <LikeCounter/>
             </div>
         </section>
     );

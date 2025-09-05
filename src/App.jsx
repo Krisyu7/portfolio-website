@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import ExperiencePage from './pages/ExperiencePage';
 import AboutPage from './pages/AboutPage';
-import ProjectPage1 from './pages/ProjectPage1';
-import Project1Page from "./pages/Project1Page.jsx";
+import TicktodoPage from './pages/Ticktodo-page.jsx';
+import ElectronicsStore from "./pages/electronics-store.jsx";
 
 function App() {
     return (
@@ -14,8 +14,9 @@ function App() {
                     <Route path="/" element={<HomePage />} />
                     <Route path="/experience" element={<ExperiencePage />} />
                     <Route path="/about" element={<AboutPage />} />
-                    <Route path="/projects" element={<ProjectPage1 />} />
-                    <Route path="/projects/electronics-store" element={<Project1Page />} />
+                    <Route path="/projects" element={<TicktodoPage />} />
+                    <Route path="/projects/electronics-store" element={<ElectronicsStore />} />
+                    <Route path="/projects/ticktodo-app" element={<TicktodoPage/>} />
                 </Routes>
             </div>
         </Router>

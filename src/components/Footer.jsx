@@ -34,17 +34,10 @@ const Footer = () => {
                         >
                             GitHub
                         </a>
-                        <a
-                            href="https://twitter.com/yourprofile"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-gray-300 hover:text-white transition-colors"
-                        >
-                            Twitter
-                        </a>
+
                     </div>
                 </div>
-                <p className="text-xs max-w-2xl mx-auto -ml-10 ">Message Length:{comment.length}</p>
+                <p className="text-xs max-w-2xl mx-auto  ">Message Length:{comment.length}</p>
                 <div className="max-w-2xl mx-auto mb-8">
                     <div className="flex flex-col md:flex-row gap-4">
 

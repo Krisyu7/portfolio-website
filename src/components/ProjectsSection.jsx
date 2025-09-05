@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import shoppingcartSS from '../assets/shoppingcartSS.png';
-
+import tickToDo from '../assets/tickToDo.png';
 const ProjectsSection = () => {
     return (
         <section id="projects" className="py-20 px-4 bg-white">
@@ -37,19 +37,25 @@ const ProjectsSection = () => {
                     {/* Project Card 2 */}
                     <div className="group bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
                         <div className="relative h-64 bg-gray-200 overflow-hidden">
-                            <div className="w-full h-full bg-gradient-to-br from-green-400 to-blue-500 flex items-center justify-center">
-                                <span className="text-white text-lg">Project Screenshot</span>
+                            <div className="w-full h-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
+                                <img
+                                    src={tickToDo}
+                                    alt="Electronics Shopping Demo Screenshot"
+                                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                                />
                             </div>
                             <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                                <span className="text-white font-semibold">View Project</span>
+                                <Link to="/projects/ticktodo-app" className="text-white font-semibold">View Project</Link>
                             </div>
                         </div>
                         <div className="p-6">
-                            <h3 className="text-xl font-bold text-gray-900 mb-2">Project 2 Coming Soon...</h3>
-                            <p className="text-gray-600 mb-4">A brief description of the project, showing its main functions and technical features</p>
+                            <h3 className="text-xl font-bold text-gray-900 mb-2">Task Management Tool</h3>
+                            <p className="text-gray-600 mb-4">A task management tool that allows users to schedule tasks with specific time settings. Helps users plan their work content and timeline while providing detailed history tracking.</p>
                             <div className="flex flex-wrap gap-2">
-                                <span className="px-3 py-1 bg-purple-100 text-purple-600 rounded-full text-sm">Vue</span>
-                                <span className="px-3 py-1 bg-yellow-100 text-yellow-600 rounded-full text-sm">JavaScript</span>
+                                <span className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">React</span>
+                                <span className="px-3 py-1 bg-green-100 text-green-600 rounded-full text-sm">TypeScript</span>
+                                <span className="px-3 py-1 bg-green-100 text-shadow-black-600 rounded-full text-sm">Tailwind CSS</span>
+                                <span className="px-3 py-1 bg-yellow-100 text-shadow-black-600 rounded-full text-sm">Vite</span>
                             </div>
                         </div>
                     </div>
